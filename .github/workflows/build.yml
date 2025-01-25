@@ -16,8 +16,8 @@ jobs:
         run: |
           cd ./
           mkdir build
-          mv config build/overrides
-          mv kubejs build/overrides
+          mv config/* build/overrides/config
+          mv kubejs/* build/overrides/kubejs
           mv options.txt build/overrides
           mv manifest.json build
           mv modlist.html build
