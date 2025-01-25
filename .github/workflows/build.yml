@@ -16,7 +16,9 @@ jobs:
         run: |
           cd ./
           mkdir build
-          mv ./config build/overrides
+          mv config build/overrides
+          mv kubejs build/overrides
+          mv options.txt build/overrides
           mv manifest.json build
           mv modlist.html build
       - name: Upload modpack to Actions

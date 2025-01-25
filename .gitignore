@@ -9,6 +9,11 @@
 
 !config
 config/*
+!kubejs
+kubejs/config/probejs.json
+kubejs/jsconfig.json
+kubejs/README.txt
+
 !incontrol
 !InventoryHUD
 !inventoryprofilesnext
