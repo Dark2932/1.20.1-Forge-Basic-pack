@@ -15,7 +15,10 @@ jobs:
       - name: Pack modpack
         run: |
           cd ./
-          mkdir build/overrides
+          mkdir build
+          cd ./build
+          mkdir overrides
+          cd ./
           mv config build/overrides/config
           mv kubejs build/overrides/kubejs
           mv options.txt build/overrides
