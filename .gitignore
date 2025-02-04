@@ -14,16 +14,19 @@ kubejs/config/probejs.json
 kubejs/jsconfig.json
 kubejs/README.txt
 
+!defaultoptions
 !incontrol
 !InventoryHUD
 !inventoryprofilesnext
 !jade
 !jei
+!openloader
+!pickupnotifier
 !embeddium*.*
-!inventoryhud-client
-!jea.json5
+!inventoryhud-client.toml
 !jecharacters.toml
 !jeiintegration-client.toml
 !minieffects-client.yaml
 !sodium*.*
+!toastcontrol-common.toml
 !xaero*.*

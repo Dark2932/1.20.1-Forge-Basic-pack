@@ -1,6 +1,6 @@
 {
   "animation_settings": {
-    "animation": false,
+    "animation": true,
     "water": true,
     "lava": true,
     "fire": true,
@@ -30,13 +30,13 @@
   },
   "render_settings": {
     "fog_type": "MOD_COMPAT",
-    "fog_distance": 8,
+    "fog_distance": 33,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0,
-      "minecraft:the_nether": 0,
-      "minecraft:the_end": 0
+      "minecraft:overworld": 9,
+      "minecraft:the_nether": 9,
+      "minecraft:the_end": 9
     },
     "light_updates": true,
     "item_frame": true,
@@ -56,12 +56,12 @@
     "show_coords": false,
     "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
-    "cloud_height": 192,
-    "cloud_distance": 100,
-    "toasts": true,
-    "advancement_toast": true,
+    "cloud_height": 253,
+    "cloud_distance": 300,
+    "toasts": false,
+    "advancement_toast": false,
     "recipe_toast": false,
-    "system_toast": true,
+    "system_toast": false,
     "tutorial_toast": false,
     "instant_sneak": false,
     "prevent_shaders": false,
